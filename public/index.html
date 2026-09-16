@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Support Center</title>
+
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #f5f7fb;
+      color: #1f2937;
+    }
+
+    header {
+      background: #111827;
+      color: white;
+      padding: 18px 24px;
+    }
+
+    header h2 {
+      margin: 0;
+    }
+
+    .container {
+      width: 90%;
+      max-width: 900px;
+      margin: 50px auto;
+    }
+
+    .hero {
+      text-align: center;
+      margin-bottom: 35px;
+    }
+
+    .hero h1 {
+      font-size: 36px;
+      margin-bottom: 10px;
+    }
+
+    .hero p {
+      color: #6b7280;
+    }
+
+    .cards {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 20px;
+    }
+
+    .card {
+      background: white;
+      padding: 25px;
+      border-radius: 14px;
+      box-shadow: 0 5px 18px rgba(0,0,0,0.08);
+    }
+
+    .card h3 {
+      margin-top: 0;
+    }
+
+    .card p {
+      color: #6b7280;
+      line-height: 1.5;
+    }
+
+    .btn {
+      display: inline-block;
+      margin-top: 10px;
+      padding: 10px 16px;
+      background: #2563eb;
+      color: white;
+      text-decoration: none;
+      border-radius: 8px;
+    }
+
+    .btn:hover {
+      background: #1d4ed8;
+    }
+
+    footer {
+      text-align: center;
+      margin-top: 50px;
+      padding: 20px;
+      color: #6b7280;
+    }
+  </style>
+</head>
+
+<body>
+
+  <header>
+    <h2>Support Center</h2>
+  </header>
+
+  <main class="container">
+
+    <section class="hero">
+      <h1>How can we help?</h1>
+      <p>Welcome to the Support Center.</p>
+    </section>
+
+    <section class="cards">
+
+      <div class="card">
+        <h3>Help Center</h3>
+        <p>Find help and information about using the website.</p>
+        <a href="#" class="btn">Get Help</a>
+      </div>
+
+      <div class="card">
+        <h3>Contact Support</h3>
+        <p>Contact the support team for assistance.</p>
+        <a href="#" class="btn">Contact Us</a>
+      </div>
+
+      <div class="card">
+        <h3>Dashboard</h3>
+        <p>Open your existing dashboard.</p>
+        <a href="/dashboard.html" class="btn">Open Dashboard</a>
+      </div>
+
+    </section>
+
+  </main>
+
+  <footer>
+    © 2026 Support Center
+  </footer>
+
+
+  <!-- API URL -->
+  <script>
+    const API_URL = "https://darkside-2.onrender.com";
+  </script>
+
+</body>
+</html>
